@@ -1,0 +1,134 @@
+.contant {
+    width: 1200px;
+    margin: 20px auto 60px;    
+}
+a{
+  color:inherit;
+}
+
+.contant .shaixuan {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.contant .shaixuan input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.contant .shaixuan>input:nth-of-type(1) {
+    width: 470px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.contant .shaixuan>input:nth-of-type(2),
+.contant .shaixuan>input:nth-of-type(3) {
+    width: 72px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.contant .shaixuan>input:nth-of-type(3) {
+    margin-left: 10px;
+}
+
+.contant .shaixuan>button {
+    width: 110px;
+    height: 30px;
+    background-color: #ffc900;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contant .list {
+    padding-bottom: 40px;
+}
+
+.contant .list li:nth-of-type(2n-1) {
+    margin-right: 20px;
+}
+
+.contant .list li {
+    width: 590px;
+    height: 170px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid #eee;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.contant .list li .num {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #ffc343;
+}
+
+.contant .list li .one {
+    background-color: #ff4444;
+}
+
+.contant .list li .two {
+    background-color: #ff803b;
+}
+
+.contant .list li img {
+    width: 170px;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contant .list li h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.contant .list li p {
+    font-size: 18px;
+    color: #ff4848;
+    margin-top: 50px;
+}
+
+.contant .list li p .price {
+    float: left;
+}
+
+.contant .list li p .price span {
+    font-size: 26px;
+}
+
+.contant .list li p .shouchang {
+    float: right;
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+}

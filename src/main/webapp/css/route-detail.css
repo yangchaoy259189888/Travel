@@ -1,0 +1,159 @@
+/*商品详情页*/
+.search_input {
+    height: 40px;
+}
+
+.bread_box {
+	width: 1188px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.bread_box a{
+	color: #000;
+}
+.prosum_box {
+    width: 1188px;
+    border: solid 1px #ddd;
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.prosum_box .prosum_left {
+    margin: 20px;
+    overflow: hidden;
+    width: 684px;
+    float: left;
+}
+
+.prosum_box .prosum_left .big_img {
+    width: 570px;
+    height: 340px;
+}
+
+.prosum_box .prosum_left .little_img img {
+    width: 110px;
+    height: 70px;
+    opacity: 0.6;
+}
+
+.prosum_box .prosum_left .little_img img:hover {
+    opacity: 1.0;
+}
+
+.prosum_box .prosum_left .cur_img img {
+    opacity: 1.0;
+}
+
+.prosum_box .prosum_left .up_img,
+.prosum_box .prosum_left .down_img {
+    width: 110px;
+    height: 20px;
+    background: #333;
+}
+
+.prosum_box .prosum_left .up_img {
+    background: url("../images/arrows.jpg") no-repeat;
+    background-position: 0px -20px;
+}
+
+.prosum_box .prosum_left .up_img_disable {
+    background-position: 0px 0px;
+}
+
+.prosum_box .prosum_left .down_img {
+    background: url("../images/arrows.jpg") no-repeat;
+    background-position: 0px -60px;
+}
+
+.prosum_box .prosum_left .down_img_disable {
+    background-position: 0px -40px;
+}
+
+.prosum_box .prosum_left dt {
+    float: left;
+    margin-right: 4px;
+}
+
+.prosum_box .prosum_left dd {
+    float: left;
+}
+
+.prosum_box .prosum_left dd a {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.prosum_box .prosum_right {
+    float: left;
+    width: 462px;
+    margin: 20px 0px 20px 0px;
+}
+
+.prosum_box .prosum_right .pros_title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hot {
+	font-size: 14px;
+	color: #ff4848;
+}
+
+.pros_other {
+	background: #eee;
+	font-size: 14px;
+	padding: 10px 0 10px 10px;
+	margin-top: 10px;
+}
+.pros_other p{
+	line-height: 24px;
+}
+.pros_price {
+	background: #eee;
+	margin-top: 40px;
+	padding: 10px 0 20px 10px;
+}
+.pros_price  .price strong{
+	color: #ff4848;
+	font-size: 26px;
+	font-weight: normal;
+}
+.collect {
+	margin-top: 30px;
+}
+.collect a {
+	font-size: 14px;
+    background: #ff4848;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.collect .already{
+	background: #ccc;
+}
+.collect a i{
+	font-size: 16px;
+    vertical-align: top;
+    margin-right: 3px;
+}
+.you_need_konw {
+	width: 1188px;
+    margin: 60px auto;
+}
+.you_need_konw span {
+	font-size: 16px;
+	border-bottom: 3px solid #ffc900;
+}
+.notice {
+	border: solid 1px #ddd;
+	padding: 35px 48px;
+}
+.notice p {
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}

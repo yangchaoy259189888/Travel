@@ -1,0 +1,326 @@
+/*
+* @Author: WCM
+* @Date:   2018-01-27 15:13:13
+* @Last Modified by:   WCM
+* @Last Modified time: 2018-01-27 15:17:57
+*/
+
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;  /*外面环绕线*/
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+      /*字体的自动识别*/
+}
+select, input {
+    vertical-align: middle;
+}
+
+/*输入字居中显示*/
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;  /*不可以随意拖动*/
+}
+img{
+    display: block;
+}
+table {
+    border-collapse: collapse; /*合并外连线*/
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/  /*兼容IE6下的写法*/
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/*头部*/
+
+#header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.top_banner {
+    width: 1500px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    width: 1200px;
+    height: 50px;
+}
+
+.login_out, .login {  
+    height: 50px;
+    line-height: 36px;
+    float: right;
+}
+
+.login {
+    width: 205px;
+    font-size: 12px;
+}
+.login a{
+    font-size: 12px;
+    color: #a1a1a1;
+}
+.login .collection {
+    color: #ff7676;
+    margin: 0 16px 0 10px;
+}
+.login_out a {
+    color: #000;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.header_wrap {
+    widows: 100%;
+    overflow: hidden;
+}
+
+.topbar {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo,
+.search,
+.hottel {
+    float: left;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.search {
+    margin: 15px 140px 0 115px;
+}
+
+.search_input {
+    float: left;
+    width: 400px;
+    height: 36px;
+    border: 2px solid #ffc900;
+    padding-left: 10px;
+}
+
+.search_input:focus {
+    outline: none;
+}
+
+.search-button {
+    float: left;
+    width: 90px;
+    height: 40px;
+    background: #ffc900;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 12px;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 12px;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size: 12x;
+}
+
+.hot_pic,
+.hot_tel {
+    float: left;
+}
+
+.hot_pic {
+    margin-right: 18px;
+}
+
+.hot_time {
+    color: #3d3d3f;
+    font-size: 14px;
+}
+
+.hot_num {
+    color: #ffc900;
+    font-size: 18px;
+}
+
+.navitem {
+    width: 100%;
+    height: 40px;
+    background: #ffc900;
+}
+
+.nav {
+    width: 1200px;
+    margin: 20px auto 0;
+}
+
+.nav li {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav li a {
+    color: #3d3d3f;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+}
+
+.nav .nav-active {
+    background-color: #ffd800;
+}
+
+.nav>li>a {   
+    padding: 10px 15px;
+}
+
+/*公共页尾*/
+
+
+/*页尾*/
+.fl {
+    float: left;
+}
+#footer {
+    width: 100%;
+    background: #3d3d3f;
+}
+
+.why_select {    
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: solid 1px #666;
+    padding: 10px 85px;
+    font-family: '微软雅黑';
+}
+
+.why_select dl {
+    float: left;
+    margin-bottom: 0;
+}
+
+.why_select dd {
+    margin: 4px 100px 0 60px;
+}
+
+.why_select h1 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.why_select h1.title {
+    line-height: 50px;
+    padding-right: 25px;
+}
+
+.why_select h2 {
+    font-size: 12px;
+    color: #8d8d8e;
+    line-height: 26px;
+}
+
+.why_select .icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.company {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background: #ffc900;
+    color: #3d3d3f;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*分页样式*/
+.pageNum {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.pageNum ul li {
+  width: 40px;
+  height: 40px;
+  float: left;
+  border: 1px solid #eee;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+}
+.pageNum ul li.curPage {
+    background-color: #ffc900;
+}
+.pageNum ul li a {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 14px;
+}
+.pageNum ul .threeword {
+  width: 75px;
+}

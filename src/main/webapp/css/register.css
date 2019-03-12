@@ -1,0 +1,96 @@
+.rg_layout{
+	width: 100%;
+	height: 585px;
+	background: url(../images/register_bg.png) no-repeat center;
+	background-size: 100% 780px;
+	overflow: hidden;
+}
+.rg_layout .rg_form{
+	width: 886px;
+	height: 534px;
+	background-color: #fff;
+	margin:24px auto;
+	border:8px solid #eeeeee;
+	box-sizing: border-box;
+}
+
+.rg_layout .rg_form > .rg_form_left{
+	width:256px;
+	float: left;
+	padding-top:20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.rg_layout .rg_form > .rg_form_center{
+	width:358px;
+	float: left;
+	padding-top:10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.rg_layout .rg_form > .rg_form_right{
+	width:256px;
+	float: right;
+}
+
+.rg_form > .rg_form_left > p:first-child{
+	font-size: 20px;
+	color:#ffcd26;
+	
+}
+.rg_form > .rg_form_left > p:last-child{
+	font-size: 20px;
+	color: #a6a6a6;
+}
+.rg_form > .rg_form_center .td_left{
+	width: 65px;
+	text-align: right;
+}
+.rg_form > .rg_form_center table{
+	vertical-align: top;
+}
+.rg_form > .rg_form_center table tr{
+	height: 50px;
+}
+.rg_form > .rg_form_center .td_right{
+	width: 293px;
+}
+.rg_form_center .td_right > input[type="text"],.rg_form_center .td_right > input[type="date"]{
+	width: 256px;
+	height: 32px;
+	line-height: 32px;
+	box-sizing: border-box;
+	padding: 6px 12px;
+	border-radius: 4px;
+	border:1px solid #a6a6a6;
+	float: right;
+}
+.rg_form > .rg_form_center .td_right.gender{
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_center .td_right.check{
+	padding-left: 36px;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_center .td_right > .check{
+	width: 118px;
+	float: left;
+	margin-right:14px;
+}
+.rg_form > .rg_form_center .td_right > .submit{
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #ffc900;
+	font-size: 14px;
+}
+.rg_form > .rg_form_right >p{
+	float: right;
+	font-size: 14px;
+	padding: 20px 12px 0 0;
+	box-sizing: border-box;
+}
+.rg_form > .rg_form_right >p >a{
+	color: #fc8989;
+}
